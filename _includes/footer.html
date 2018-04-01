@@ -1,7 +1,21 @@
-  <footer>
-    <p>Website footer</p>
-  </footer>
+    <footer>
+      <p>Website footer</p>
+    </footer>
 
   </body>
+
+<script type="text/javascript" src="{{ site.baseurl }}/scripts/instafeed.min.js"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '4726911656',
+        accessToken: '640201490.ba4c844.cde0101a36db49ccb848444e1a52aaa1',
+        sortBy: 'most-recent',
+        limit: '2',
+        clientId: '7c3e159c8bd243458a96956f24ba2d8e',
+        resolution: 'low_resolution'
+    });
+    feed.run();
+</script>
 
 </html>
