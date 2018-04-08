@@ -122,6 +122,10 @@ button:hover {
   vertical-align: top;
 }
 
+.column-width-cap {
+  width: 100%;
+}
+
 .link {
   margin-top: 28px;
 }
@@ -135,6 +139,11 @@ button:hover {
 
 .map {
   height: 440px;
+}
+
+.upsell {
+  background: #F7E5DD;
+  text-align: left;
 }
 
 .two-column {
@@ -267,6 +276,12 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
     width: 50%;
     display: inline-block;
     padding: 0 20px;
+  }
+
+  .column-width-cap {
+    max-width: 944px;
+    display: block;
+    margin: 0 auto;
   }
 
 }
