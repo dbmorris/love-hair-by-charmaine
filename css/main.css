@@ -12,6 +12,12 @@ a:visited {color:#4A4A4A;}
 a:hover {color:#4A4A4A; }
 a:active {color:black;}
 
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* Font Classes */
 /* Buttons and small text */
 .fs1 {
@@ -36,7 +42,7 @@ a:active {color:black;}
   font-family: 'Cutive', serif;
   font-size: 1.125em;
   line-height: 1.8em;
-  margin: 20px 0;
+  margin: 20px 0 12px 0;
 
 }
 
@@ -122,6 +128,10 @@ button:hover {
   vertical-align: top;
 }
 
+.float-right {
+  float: right;
+}
+
 .column-width-cap {
   width: 100%;
 }
@@ -131,7 +141,6 @@ button:hover {
 }
 
 .link a {
-  margin-left: 16px;
   text-transform: uppercase;
   border-bottom: 4px solid #C2ABA5;
   padding-bottom: 6px;
@@ -169,24 +178,26 @@ button:hover {
 }
 
 .opening-times {
-  width: 382px;
-  margin: 0 12px 0 auto;
+  margin: 0 auto 40px auto;
   color: #4A4A4A;
 }
 
 .opening-times__hours {
   list-style: none;
-  margin-top: 28px;
+  margin-top: 20px;
   padding-left: 0;
 }
 
 .instagram-feed {
-  margin: 0 auto 0 12px;
-  width: 382px;
+  margin: 0 auto;
+}
+
+.instagram-feed a {
+  text-decoration: underline;
 }
 
 #instafeed {
-  margin-top: 28px;
+  margin-top: 20px;
 }
 
 #instafeed a {
@@ -206,18 +217,30 @@ footer {
   font-family: 'Source Sans Pro', sans-serif;
   color: #EBEBEB;
   text-align: center;
-  padding-top: 52px;
+  padding-top: 40px;
 }
 
 footer p {
   margin: 0 0 12px 0;
 }
 
-.third-width {
-  width: 33%;
-  width: calc(100% / 3);
-  height: 168px;
-  display: inline-table;
+.column-third {
+  width: 100%;
+}
+
+.social-icon {
+  height: 28px;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icon img {
+  height: 100%;
+  width: auto;
 }
 
 @media
@@ -282,6 +305,13 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
     max-width: 944px;
     display: block;
     margin: 0 auto;
+  }
+
+  .column-third {
+    width: 33%;
+    width: calc(100% / 3);
+    height: 168px;
+    display: inline-table;
   }
 
 }
