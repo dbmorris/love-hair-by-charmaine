@@ -55,7 +55,7 @@ a:active {color:black;}
 
 .intro {
  height: auto;
- padding: 40px 0 32px 0;
+ padding: 40px 0 48px 0;
  background: #F7E5DD;
 }
 
@@ -102,6 +102,15 @@ button:hover {
   margin: 24px auto 0 auto;
 }
 
+.divider {
+  position: absolute;
+  bottom: 0px;
+}
+
+.divider img {
+  width: 100%;
+}
+
 .brand {
  background: #F7E5DD;
  text-align: left;
@@ -120,6 +129,18 @@ button:hover {
 .image-full {
   display: none;
   width: 100%;
+}
+
+.mobile-image {
+  display: block;
+}
+
+.tablet-image {
+  display: none;
+}
+
+.desktop-image {
+  display: none;
 }
 
 .column-half {
@@ -148,6 +169,10 @@ button:hover {
 
 .map {
   height: 440px;
+}
+
+.info {
+  padding: 48px 0;
 }
 
 .upsell {
@@ -217,13 +242,17 @@ footer {
   background: #4A4A4A;
   height: 260px;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #EBEBEB;
   text-align: center;
   padding-top: 40px;
 }
 
 footer p {
   margin: 0 0 12px 0;
+  color: #EBEBEB;
+}
+
+footer p a {
+  text-decoration: none;
 }
 
 .column-third {
@@ -316,6 +345,18 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
     display: inline-table;
   }
 
+  .mobile-image {
+    display: none;
+  }
+
+  .tablet-image {
+    display: block;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
 }
 
 @media
@@ -351,6 +392,18 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px) 
 
   .fs3 {
     font-size: 1.25em;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  .tablet-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: block;
   }
 
 }
