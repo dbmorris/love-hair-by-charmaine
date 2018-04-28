@@ -23,7 +23,7 @@ a:active {color:black;}
 .fs1 {
   color: rgba(74, 74, 74, 1);
   font-family: 'Cutive', serif;
-  font-size: 0.875em;
+  font-size: 0.8em;
   margin: 8px 0;
 }
 
@@ -76,7 +76,7 @@ a:active {color:black;}
 }
 
 button {
-  padding: 18px 24px;
+  padding: 18px 22px 16px 22px;
   border: none;
   border-radius: 0px;
 }
@@ -240,23 +240,20 @@ button:hover {
 
 footer {
   background: #4A4A4A;
-  height: 260px;
+  min-height: 260px;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  padding-top: 40px;
-}
-
-footer p {
-  margin: 0 0 12px 0;
+  padding: 40px 0;
   color: #EBEBEB;
 }
 
-footer p a {
-  text-decoration: none;
+footer p a:visited {
+  color: #EBEBEB;
 }
 
 .column-third {
   width: 100%;
+  margin-bottom: 32px;
 }
 
 .social-icon {
@@ -290,7 +287,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
 @media only screen and (min-width: 768px) {
 
   .fs1 {
-    font-size: 0.9375em;
+    font-size: 0.9em;
   }
 
   .fs2 {
@@ -383,11 +380,11 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px) 
 @media only screen and (min-width: 1024px) {
 
   .fs1 {
-    font-size: 0.875em;
+    font-size: 0.8em;
   }
 
   .fs2 {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .fs3 {
