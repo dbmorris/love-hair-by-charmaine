@@ -197,7 +197,9 @@ button:hover {
 }
 
 #instafeed {
-  margin-top: 20px;
+  margin: 20px auto;
+  max-width: 480px;
+  font-size: 0;
 }
 
 #instafeed a {
