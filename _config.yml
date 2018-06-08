@@ -16,8 +16,8 @@
 title: Love Hair by Charmaine
 email: dbmorris@hotmail.co.uk
 description: Love hair is a cruelty free, vegan friendly hairdressers in Urmston, Manchester. We offer luxury hair care and guilt free pampering in a relaxing environment. Trained in Andrew Collinge with over 10 years experience.
-baseurl: "/love-hair-by-charmaine"
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "http://lovehairbycharmaine.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: monotonemorris
 github_username:  dave-morris
 

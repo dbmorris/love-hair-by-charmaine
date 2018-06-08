@@ -90,6 +90,7 @@ button:hover {
   margin: 0 auto;
   padding-top: 22px;
   display: block;
+  vertical-align: bottom;
 }
 
 .intro__button:hover {
@@ -100,6 +101,7 @@ button:hover {
   display: block;
   letter-spacing: 0.45px;
   margin: 24px auto 0 auto;
+  line-height: 2em;
 }
 
 .divider {
