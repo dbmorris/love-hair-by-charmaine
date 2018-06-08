@@ -1,5 +1,5 @@
 jQuery.fn.spectragram.accessData = {
-  accessToken: '640201490.1677ed0.e37bd781535a4ccf8dbe71aec19efd3f'
+  accessToken: '4726911656.1677ed0.040fabb48a9d42428d22100c78c3cf03'
 };
 
 dividerWidth = ($(window).width() - 24);
@@ -32,6 +32,11 @@ $(document).ready(function() {
     }
 
     $('.divider').center();
+
+    $('#book-now').click(function() {
+      alert("For any bookings made online, a deposit will be required");
+      return false;
+    });
 
   });
 
