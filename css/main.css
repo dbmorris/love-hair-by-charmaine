@@ -7,6 +7,11 @@ html {
   line-height: 1.2;
 }
 
+body {
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 a {color:#4A4A4A; text-decoration: none;}
 a:visited {color:#4A4A4A;}
 a:hover {color:#4A4A4A; }
