@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     $('.divider').center();
 
-    $('#book-now').click(function() {
+    $('#book-now p'):eq(0).click(function() {
       alert("For any bookings made online, a deposit will be required");
       return false;
     });
