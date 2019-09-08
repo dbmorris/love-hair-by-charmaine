@@ -1,13 +1,6 @@
 <div class="slice intro">
   <div class="intro__logo"></div>
   <div class="intro__tagline"></div>
-  <a href="{{ site.baseurl }}/assets/price-list-dl-leaflet-outline.pdf" target="_blank"><button class="intro__button fs1">SEE PRICE-LIST</button></a>
-  <div class="intro__cta fs1">
-    Text or call me to book:</br>0161 637 1950
-  </div>
-  <div class="divider">
-    <img class="mobile-image" src="{{ site.baseurl }}/img/divider-688px.png">
-    <img class="tablet-image" src="{{ site.baseurl }}/img/divider-688px.png">
-    <img class="desktop-image" src="{{ site.baseurl }}/img/divider-1200px.png">
-  </div>
+  {% include components/primary-button.html link="https://app.shedul.com/online_bookings/47753/link" cta="Book an appointment" %}
+  {% include components/secondary-button.html link="/assets/price-list-dl-leaflet-outline.pdf" cta="See our price list" %}
 </div>

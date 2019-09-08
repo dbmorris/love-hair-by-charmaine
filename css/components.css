@@ -1,0 +1,36 @@
+button {
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: rgba(74, 74, 74, 1) solid 2px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  padding: 25px 32px 18px 32px;
+  text-transform: uppercase;
+}
+
+.primary-button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.secondary-button {
+  background-color: unset;
+  background: url('/img/button-arrow-right.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  border: none;
+  font-size: 15px;
+  margin-top: 28px;
+  padding-right: 24px;
+  text-decoration: underline;
+}
+
+a .secondary-button {
+  line-height: 20px;
+}

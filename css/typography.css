@@ -1,0 +1,64 @@
+/* Font Classes */
+/* Buttons and small text */
+.fs1 {
+  color: rgba(68, 68, 68, 1);
+  font-family: 'Cutive', serif;
+  font-size: 0.8em;
+  margin: 8px 0;
+}
+
+/* Body copy */
+.fs2 {
+  color: rgba(74, 74, 74, 1);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  line-height: 1.8em;
+  margin: 8px 0;
+}
+
+/* Headers */
+.fs3 {
+  color: rgba(74, 74, 74, 1);
+  font-family: 'Cutive', serif;
+  font-size: 1.125em;
+  line-height: 1.8em;
+  margin: 20px 0 12px 0;
+}
+
+.intro__button.fs1 {
+  text-transform: uppercase;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+
+  .fs1 {
+    font-size: 0.9em;
+  }
+
+  .fs2 {
+    font-size: 1.125em;
+  }
+
+  .fs3 {
+    font-size: 1.3125em;
+    margin: 0;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .fs1 {
+    font-size: 0.8em;
+  }
+
+  .fs2 {
+    font-size: 1.1em;
+  }
+
+  .fs3 {
+    font-size: 1.25em;
+  }
+
+}
