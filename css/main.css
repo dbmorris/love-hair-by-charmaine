@@ -68,6 +68,17 @@ a:active {color:black;}
   line-height: 2em;
 }
 
+.messagebanner {
+  background: #EBA0A7;
+  text-align: center;
+}
+
+.messagebanner__wrap {
+  padding: 28px 32px 16px 32px;
+  background: #F5C9CD;
+  border-radius: 4px;
+}
+
 .divider {
   position: absolute;
   bottom: 0px;
