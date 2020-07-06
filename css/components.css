@@ -34,3 +34,82 @@ button:hover {
 a .secondary-button {
   line-height: 20px;
 }
+
+.price-list__title {
+  margin-bottom: 4rem;
+}
+
+.price-list__title p {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price-list__title.fs-title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.price-list__header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.price-list__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.price_list__item {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 24px;
+}
+
+.item__title.fs2 {
+  font-size: 1.25em;
+  color: rgba(56, 56, 56, 1);
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.item__inner {
+  background: #F9D1D7;
+  padding: 1.5rem;
+  height: 100%;
+  border: solid 2px pink;
+  border-radius: 8px;
+}
+
+.item__price {
+  margin-bottom: 0.5rem;
+}
+
+.item__package {
+  color: rgba(68, 68, 68, 1);
+  font-family: monospace;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .price_list__item {
+    max-width: calc(100%/3);
+    padding: 0 12px 24px 12px;
+  }
+
+  .item__inner {
+    padding: 1.5rem;
+  }
+
+  .price-list__container::after {
+  content: '';
+  flex: auto;
+  }
+
+}

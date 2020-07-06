@@ -1,9 +1,17 @@
 /* Font Classes */
 /* Buttons and small text */
+.fs-title {
+  color: rgba(243, 64, 8, 1);
+  font-family: 'Corben', cursive;
+  font-size: 2em;
+  margin: 8px 0;
+}
+
 .fs1 {
   color: rgba(68, 68, 68, 1);
   font-family: 'Cutive', serif;
   font-size: 0.8em;
+  line-height: 1.4rem;
   margin: 8px 0;
 }
 

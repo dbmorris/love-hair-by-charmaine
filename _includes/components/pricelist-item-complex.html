@@ -1,0 +1,28 @@
+<div class="price_list__item">
+  <div class="item__inner">
+
+    <div class="item__title fs2">{{ item.title }}</div>
+    <div class="item__price fs3">{{ item.price }}</div>
+
+    {% for thing in item.notes %}
+
+      <div class="item__notes fs1">{{ thing }}</div>
+
+    {% endfor %}
+
+
+    <br>
+    <div class="item__package"> This package includes
+      <ul>
+        {% for thing in item.package[0] %}
+
+        <li>{{ thing }}</li>
+
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="item__disclaimer fs1">{{ item.disclaimer }}</div>
+
+  </div>
+</div>

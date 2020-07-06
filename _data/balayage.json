@@ -1,0 +1,31 @@
+[{
+	"title": "The tease",
+	"price": "£106",
+	"notes": ["This technique gives you the illusion of multi-tonal hair and is great for people wanting more lightness on the ends of their hair or away from the roots.", "This works on clients with already existing coloured hair that are wanting warmer tones from their balayage.", "This look is low maintenance and can be done as little as once a year alongside a regular root touch up.", "Add a root tint on this look for £32"],
+	"package": [{ "Olaplex - to keep your hair strong healthy and shiny", "Balayage ", "Toning - to create beautiful multitonal effects" }],
+	"extras": "Add a root tint on this look",
+	"extraPrice": "£32",
+  "disclaimer": "This technique is NOT for people who are head sore."
+}, {
+	"title": "The glow up",
+	"price": "£76",
+	"notes": ["The glow up is a perfect technique for people with no current colour in their hair that are wanting to add brightness around of the front of there hair.", "This technique is bespoke to Love Hair.", "The glow up will take no longer than an hour to apply and is great for people on the go!", "You can be in and out of the salon in 3 hours or under depending on the desired effect, including a cut and blow.", "This technique can be topped up with a toner and can last over 8 weeks."],
+	"package": [{ "Olaplex - A treatment added to your colour to protect your hair from damage leaving your hair stronger shinier and healthier.", "A toner - to add a lipgloss like shine to your hair." }],
+	"extras": "",
+	"extraPrice": ""
+}, {
+	"title": "Shimmer and sparkle",
+	"price": "£181",
+	"notes": ["A 6 hour session of transforming your hair with microfine babylights and teasing techniques.", "This specific technique gives the illusion of muli-tonal natural shimmery sun kissed hair.", "Think of that gorgeous Australian blonde.", "This specific technique can last anywhere from 6 months to a year with the occasional toner.", "This technique is great for people with the odd few greys who wants to blend them in."],
+	"package": [{ "The balayage", "Olaplex - A treatment added to your colour to protect your hair from damage leaving your hair stronger shinier and healthier.", "Multitonal toning - to give your hair shine and depth", "Cut & blow " }],
+	"extras": "",
+	"extraPrice": ""
+}, {
+	"title": "Full head colour",
+	"price": "£55 ",
+	"notes": ["Full head colour is painting the whole head from root to tip.", "Price is dependant on the length of your hair and thickness.", "Full head colours can be used to completely cover grey using a permanent or demi pernament for something non committal."]
+}, {
+	"title": "Root tint",
+	"price": "£32",
+	"notes": ["Root tints cover over those pesky roots or sparkly bits!", "Price is dependant on root size and includes blending the previous colour and root colour in seamlessly."]
+}]

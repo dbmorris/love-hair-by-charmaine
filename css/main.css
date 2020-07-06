@@ -37,28 +37,29 @@ a:active {color:black;}
 
 .intro {
  height: auto;
- padding: 40px 0 80px 0;
- background: #F8EEE4;
- background-image: url('/img/pink-divider.png');
+ padding: 3rem 0 6rem 0;
+ background: #FFC2CA;
  background-repeat: no-repeat;
  background-position: bottom;
  background-size: contain;
 }
 
 .intro__logo {
-  background: url('../img/love-hair-logo-pink-138px@2x.png') no-repeat;
+  background: url('../img/love-hair-logo-2.png') no-repeat;
   background-size: cover;
-  height: 120px;
-  margin: 0 auto;
-  width: 138px;
+  height: 200px;
+  margin: 0 auto 2rem auto;
+  width: 200px;
 }
 
 .intro__tagline {
-  background: url('../img/always-cruelty-free-296px@2x.png') no-repeat;
-  background-size: cover;
-  height: 73px;
-  margin: 24px auto;
-  width: 296px;
+  margin: 0 auto 3rem auto;
+  padding: 0 32px;
+  width: 100%;
+}
+
+.intro__tagline.fs-title {
+  font-size: 4rem;
 }
 
 .intro__cta {
@@ -69,13 +70,13 @@ a:active {color:black;}
 }
 
 .messagebanner {
-  background: #EBA0A7;
+  background: #FFC2CA;
   text-align: center;
 }
 
 .messagebanner__wrap {
   padding: 28px 32px 16px 32px;
-  background: #F5C9CD;
+  background: #FFC2CA;
   border-radius: 4px;
 }
 
@@ -89,13 +90,13 @@ a:active {color:black;}
 }
 
 .brand {
- background: #EBA0A7;
+ background: #FFC2CA;
  text-align: left;
  padding-bottom: 36px;
 }
 
 .gallery {
-  background: #EBA0A7;
+  background: #FFC2CA;
 }
 
 .gallery .column-gallery {
@@ -104,6 +105,10 @@ a:active {color:black;}
 
 .gallery .column-gallery:first-child {
   margin-bottom: 20px;
+}
+
+.prices {
+  background: #FFC2CA;
 }
 
 .brand__image {
@@ -254,6 +259,8 @@ footer p a:visited {
   width: auto;
 }
 
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
@@ -274,18 +281,15 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
   }
 
   .intro__logo {
-    background: url('../img/love-hair-logo-pink-258px.png') no-repeat;
+    background: url('../img/love-hair-logo-2.png') no-repeat;
     background-size: cover;
-    height: 224px;
-    width: 258px;
+    height: 320px;
+    margin: 0 auto 4rem auto;
+    width: 320px;
   }
 
   .intro__tagline {
-    background: url('../img/always-cruelty-free-568px.png') no-repeat;
-    background-size: cover;
-    height: 140px;
-    margin: 28px auto;
-    width: 568px;
+    margin: 0 auto 4rem auto;
   }
 
   .intro__cta {
@@ -347,13 +351,11 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px) 
 
   /* Tablet size retina media queries */
   .intro__logo {
-    background: url('../img/love-hair-logo-pink-258px@2x.png') no-repeat;
+    background: url('../img/love-hair-logo-2.png') no-repeat;
     background-size: cover;
   }
 
   .intro__tagline {
-    background: url('../img/always-cruelty-free-568px@2x.png') no-repeat;
-    background-size: cover;
   }
 
 }
