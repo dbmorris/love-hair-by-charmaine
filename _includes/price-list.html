@@ -1,32 +1,74 @@
-<div class="slice prices">
+<div class="prices">
 
-  <div class="price-list__title">
+  <div class="wrap">
 
-    <div class="price-list__header fs-title">cut and blow dry</div>
+    <div class="price-list__title">
+
+      <div class="price-list__header fs-title">cut and blow dry</div>
 
 
-    <div class="price-list__container">
+      <div class="price-list__container">
 
-      {% for item in site.data.main-services %}
+        {% for item in site.data.main-services %}
 
-      {% include components/pricelist-item-basic.html %}
+        {% include components/pricelist-item-basic.html %}
 
-      {% endfor %}
+        {% endfor %}
+
+      </div>
 
     </div>
 
-  </div>
+    <div class="price-list__title">
 
-  <div class="price-list__title">
+      <p class="price-list__header fs-title">colour menu</p>
+      <p class="fs3">All colours used in Love Hair contain cotton seed oil, rice protein, sunflower extract to leave hair silky smooth and shiny. All colours are Vegan & cruelty free!</p>
+      <p class="fs2">ALL PRICES DO NOT INCLUDE A CUT OR FINISH</p>
 
-    <p class="price-list__header fs-title">colour menu</p>
-    <p class="fs3">All colours used in Love Hair contain cotton seed oil, rice protein, sunflower extract to leave hair silky smooth and shiny. All colours are Vegan & cruelty free!</p>
-    <p class="fs2">ALL PRICES DO NOT INCLUDE A CUT OR FINISH</p>
-
-    <div class="price-list__container colour">
+      <div class="price-list__container colour">
 
 
-      {% for item in site.data.balayage reversed offset:3 limit:2 %}
+        {% for item in site.data.balayage reversed offset:3 limit:2 %}
+
+          {% include components/pricelist-item-basic.html %}
+
+        {% endfor %}
+
+        </div>
+
+    </div>
+
+
+    <div class="price-list__title">
+
+      <p class="price-list__header fs-title">balayage options</p>
+
+      <div class="price-list__container balayage">
+
+      {% for item in site.data.balayage limit:3 %}
+
+        {% include components/pricelist-item-complex.html %}
+
+      {% endfor %}
+
+
+      </div>
+
+    </div>
+
+    <div class="price-list__title">
+
+      <p class="price-list__header fs-title">highlighting & lowlighting</p>
+      <p class="fs3">All highlighting services include a toner.</p>
+      <p class="fs1">Wanting more of a pop to your highlights?</p>
+      <p class="fs1">To brighten up the ends ask for a tip out for an additional £20. This technique works by carefully placing colour on the remaining weaved out hair to give the ends a sun kissed look.</p>
+      <p class="fs1">Wanting to change your highlights to babylights? Add £20 on to your highlighting service.</p>
+      <p class="fs1">Babylights are tiny microfine highlights that mimic the subtle dimensional hair colour seen in children’s hair. This technique leads to a much softer regrowth when growing out. People feel they can stretch their 8 week appointments slightly longer.</p>
+      <p class="fs1">With all lightening services I would recommend adding Olaplex to your colour which adds strength and condition to your hair for £15.</p>
+
+      <div class="price-list__container highlowlighting">
+
+      {% for item in site.data.highlowlighting %}
 
         {% include components/pricelist-item-basic.html %}
 
@@ -34,62 +76,24 @@
 
       </div>
 
-  </div>
+    </div>
 
+    <div class="price-list__title">
 
-  <div class="price-list__title">
+      <p class="price-list__header fs-title">treatments</p>
 
-    <p class="price-list__header fs-title">balayage options</p>
+        <div class="price-list__container treatments">
 
-    <div class="price-list__container balayage">
+        {% for item in site.data.treatments %}
 
-    {% for item in site.data.balayage limit:3 %}
+          {% include components/pricelist-item-complex.html %}
 
-      {% include components/pricelist-item-complex.html %}
+        {% endfor %}
 
-    {% endfor %}
-
+      </div>
 
     </div>
 
   </div>
-
-  <div class="price-list__title">
-
-    <p class="price-list__header fs-title">highlighting & lowlighting</p>
-    <p class="fs3">All highlighting services include a toner.</p>
-    <p class="fs1">Wanting more of a pop to your highlights?</p>
-    <p class="fs1">To brighten up the ends ask for a tip out for an additional £20. This technique works by carefully placing colour on the remaining weaved out hair to give the ends a sun kissed look.</p>
-    <p class="fs1">Wanting to change your highlights to babylights? Add £20 on to your highlighting service.</p>
-    <p class="fs1">Babylights are tiny microfine highlights that mimic the subtle dimensional hair colour seen in children’s hair. This technique leads to a much softer regrowth when growing out. People feel they can stretch their 8 week appointments slightly longer.</p>
-    <p class="fs1">With all lightening services I would recommend adding Olaplex to your colour which adds strength and condition to your hair for £15.</p>
-
-    <div class="price-list__container highlowlighting">
-
-    {% for item in site.data.highlowlighting %}
-
-      {% include components/pricelist-item-basic.html %}
-
-    {% endfor %}
-
-    </div>
-
-  </div>
-
-  <div class="price-list__title">
-
-    <p class="price-list__header fs-title">treatments</p>
-
-      <div class="price-list__container treatments">
-
-      {% for item in site.data.treatments %}
-
-        {% include components/pricelist-item-complex.html %}
-
-      {% endfor %}
-
-    </div>
-
-  </div>
-
+  
 </div>

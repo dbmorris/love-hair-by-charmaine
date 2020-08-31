@@ -1,3 +1,4 @@
+
 button {
 }
 
@@ -7,16 +8,18 @@ button:hover {
 
 .primary-button {
   background-color: rgba(255, 255, 255, 0.1);
-  border: rgba(74, 74, 74, 1) solid 2px;
+  border: rgba(243, 64, 8, 1) solid 2px;
+  color: rgba(243, 64, 8, 1);
   border-radius: 4px;
   display: block;
-  margin: 0 auto;
-  padding: 25px 32px 18px 32px;
-  text-transform: uppercase;
+  padding: 8px 24px 14px 24px;
+  margin: 0;
+  display: inline-block;
 }
 
 .primary-button:hover {
   background-color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
 }
 
 .secondary-button {
@@ -37,6 +40,15 @@ a .secondary-button {
 
 .price-list__title {
   margin-bottom: 4rem;
+  text-align: center;
+}
+
+.price-list__title:first-child {
+  padding-top: 1rem;
+}
+
+.price-list__title:last-child {
+  margin-bottom: 0;
 }
 
 .price-list__title p {

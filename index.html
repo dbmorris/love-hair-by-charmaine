@@ -2,11 +2,32 @@
 layout: default
 ---
 
-<!-- <div class="query-checker"></div> -->
-{% include intro.html %}
-<!-- {% include price-list.html %} -->
-<!-- {% include messagebanner.html %} -->
-{% include brand-statement.html %}
+<div class="homepage-intro">
+  <div class="wrap">
+
+    <div class="intro-sidebar">
+      <div> <!-- intermediary wrapper -->
+
+        <div><!-- sidebar -->
+          <div class="stack">
+            <div class="intro__logo"></div>
+            <h1 class="intro__tagline fs-title">always cruelty free</h1>
+            <p class="fs2">Vegan friendly, luxury hair care & guilt-free pampering in Urmston, Manchester</p>
+            {% include components/primary-button.html link="/price-list" cta="see price list" %}
+          </div>
+        </div>
+
+        <div><!-- non-sidebar -->
+        <img src="{{ site.baseurl }}/img/shop-images/salon-4.jpg" alt="An interior picture of the salon showing the boutique seating and floor layout">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
 {% include image-gallery.html %}
 {% include map.html %}
-{% include two-column.html %}
+{% include opening-hours.html %}
+{% include instagram.html %}

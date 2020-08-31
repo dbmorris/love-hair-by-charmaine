@@ -3,7 +3,8 @@
 .fs-title {
   color: rgba(243, 64, 8, 1);
   font-family: 'Corben', cursive;
-  font-size: 2em;
+  font-weight: 400;
+  font-size: 2.5em;
   margin: 8px 0;
 }
 
@@ -18,7 +19,8 @@
 /* Body copy */
 .fs2 {
   color: rgba(74, 74, 74, 1);
-  font-family: 'Courier', monospace;
+  font-family: 'Corben', cursive;
+  font-weight: 400;
   font-size: 1em;
   line-height: 1.8em;
   margin: 8px 0;
@@ -36,6 +38,23 @@
 .intro__button.fs1 {
   text-transform: uppercase;
 }
+
+.header {
+  text-align: center;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.header:after {
+  content: "";
+  background: #F34008;
+  position: absolute;
+  bottom: 0;
+  width: 5rem;;
+  height: 2px;
+  left: calc(50% - 2.5rem);
+}
+
 
 /* Media Queries */
 @media only screen and (min-width: 768px) {
