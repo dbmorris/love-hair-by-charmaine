@@ -44,7 +44,7 @@ a:active {color:black;}
 }
 
 .intro-sidebar {
-  overflow: hidden;
+  overflow: visible;
   text-align: center;
 }
 

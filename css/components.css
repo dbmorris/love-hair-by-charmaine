@@ -8,8 +8,8 @@ button:hover {
 
 .primary-button {
   background-color: rgba(255, 255, 255, 0.1);
-  border: rgba(243, 64, 8, 1) solid 2px;
-  color: rgba(243, 64, 8, 1);
+  border: #E96122 solid 2px;
+  color: #E96122;
   border-radius: 4px;
   display: block;
   padding: 8px 24px 14px 24px;
