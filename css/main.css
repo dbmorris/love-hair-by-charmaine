@@ -74,11 +74,11 @@ a:active {color:black;}
 }
 
 .intro__logo {
-  background: url('../img/love-hair-logo-2.png') no-repeat;
+  background: url('../img/love-hair-logo-3.png') no-repeat;
   background-size: cover;
   display: block;
-  height: 160px;
-  width: 160px;
+  height: 180px;
+  width: 180px;
   margin: 0 auto;
 }
 
@@ -309,8 +309,6 @@ footer p a:visited {
   margin-top: var(--space);
 }
 
-
-
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
@@ -335,10 +333,9 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
   }
 
   .intro__logo {
-    background: url('../img/love-hair-logo-2.png') no-repeat;
     background-size: cover;
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
     margin: 0 auto 0 0 ;
   }
 
@@ -420,7 +417,6 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 768px) 
 
   /* Tablet size retina media queries */
   .intro__logo {
-    background: url('../img/love-hair-logo-2.png') no-repeat;
     background-size: cover;
   }
 
