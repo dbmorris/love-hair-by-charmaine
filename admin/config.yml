@@ -6,3 +6,15 @@ media_folder: "img" # Media files will be stored in the repo under images/upload
 
 site_url: https://lovehairbycharmaine.co.uk
 logo_url: https://lovehairbycharmaine.co.uk/img/love-hair-logo-3.png
+
+collections:
+  - label: "Opening times"
+    name: "opening_times"
+    description: Update the opening times of the salon
+    file: "site/includes/opening-hours.html"
+    fields:
+    - label: "Title"
+      name: "title"
+      widget: "string" 
+    identifier_field: name
+    extensions: html
