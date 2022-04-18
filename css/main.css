@@ -309,6 +309,23 @@ footer p a:visited {
   margin-top: var(--space);
 }
 
+.netlify-identity-menu {
+  color: white;
+}
+
+ul.netlify-identity-menu  {
+  list-style: none;
+  padding: 0;
+}
+
+ul.netlify-identity-menu > * {
+  margin-bottom: 1rem;
+}
+
+.netlify-identity-menu a {
+  color: pink;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
 only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
