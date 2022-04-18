@@ -13,8 +13,6 @@ collections:
     description: Update the opening times of the salon
     files: "site/includes/opening-hours.html"
     fields:
-    - label: "Title"
-      name: "title"
-      widget: "string" 
+    - {label: Title, name: title, widget: string }
     identifier_field: name
     extensions: html
