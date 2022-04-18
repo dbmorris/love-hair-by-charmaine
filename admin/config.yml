@@ -8,11 +8,13 @@ site_url: https://lovehairbycharmaine.co.uk
 logo_url: https://lovehairbycharmaine.co.uk/img/love-hair-logo-3.png
 
 collections:
-  - label: "Opening times"
-    name: "opening_times"
-    description: Update the opening times of the salon
-    files: "site/includes/opening-hours.html"
-    fields:
-    - {label: Title, name: title, widget: string }
-    identifier_field: name
-    extensions: html
+  - label: "Salon details"
+    name: "details"
+    description: Update opening times and various information about the salon
+    files: 
+    - label: "Opening times"
+      name: "opening_times"
+      file: "site/includes/opening-hours.html"
+      extensions: html
+      fields:
+        - {label: Title, name: title, widget: string }
