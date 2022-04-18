@@ -1,3 +1,8 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: gh-pages # Branch to update (optional; defaults to master)
+
+media_folder: "img" # Media files will be stored in the repo under images/uploads
+
+site_url: https://lovehairbycharmaine.co.uk
+logo_url: https://lovehairbycharmaine.co.uk/img/love-hair-logo-3.png
