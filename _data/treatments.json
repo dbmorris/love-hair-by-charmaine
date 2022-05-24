@@ -1,8 +1,8 @@
 [{
-	"title": "Smoothing treatment",
-	"price": "£150",
+	"title": "Keratin treatment",
+	"price": "£165",
 	"notes": "This smoothing treatment rejuvenates hair bringing it back to it's healthy original state by actively conditioning and revitalising the hair. The hair smoothing treatment eliminates frizz locks in colour and reduces blow drying time for up to 12 weeks",
-	"package": [{ "The keratin treatment", "Cut & blow ", "Discount off 72 shampoo and conditioner specially formulated to prolong your smoothing services." }],
+	"package": [{ "The keratin treatment", "Cut & blow ", "10% discount off olaplex shampoo and conditioner formulated to prolong your smoothing services." }],
 	"extras": "Olaplex added to a colour",
 	"extraPrice": "£15"
 }]
