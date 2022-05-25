@@ -1,21 +1,17 @@
 [{
 	"title": "Fullhead foils",
-	"price": "£90",
+	"price": "£99",
 	"notes": "Highlights or lowlights that cover over your full head"
 }, {
 	"title": "1/2 head foils",
-	"price": "£70",
+	"price": "£77",
 	"notes": "Highlighting service that covers your parting to the crown and down besides the ears"
 }, {
 	"title": "Herringbone parting foils",
-	"price": "£50",
+	"price": "£55",
 	"notes": ["Parting herringbone highlights concentrates on the top section of your hair where your parting is.", "This herringbone technique gives you a much softer look when highlights start to grow out."]
 }, {
-	"title": "Disguise and delight",
-	"price": "£65",
-	"notes": ["This is the perfect technique to have in between full head foils.", "Disguise and delight covers the key areas of your head where you will see noticeable re-growth.", "Foils are expertly placed to give the illusion of more coverage in the key areas you need it."]
-}, {
 	"title": "Personalised colour",
-	"price": "£76",
+	"price": "£84",
 	"notes": ["This package is tailored to your individual needs.", "Whether it be a concern about grey regrowth or wanting a handful of highlights for brightness this package is the one for you."]
 }]
