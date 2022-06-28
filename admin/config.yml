@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: gh-pages # Branch to update (optional; defaults to master)
+  branch: netlify # Branch to update (optional; defaults to master)
 
 media_folder: "img" # Media files will be stored in the repo under images/uploads
 
@@ -14,22 +14,22 @@ collections:
     files: 
     - label: "Opening times"
       name: "opening_times"
-      file: "site/includes/opening-hours.html"
+      file: "includes/opening-hours.html"
       extensions: html
       fields:
         - {label: Title, name: title, widget: string }
-  - name: 'config'
-    label: 'Config'
+  - name: "config"
+    label: "Config"
     editor:
       preview: false
     files:
-      - label: 'Navigation'
-        name: 'navigation'
-        file: 'site/_data/test.yml'
+      - label: "Navigation"
+        name: "navigation"
+        file: "_data/test.yml"
         fields:
-          - label: 'Navigation Items'
-            name: 'items'
-            widget: 'list'
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: link, widget: string }
