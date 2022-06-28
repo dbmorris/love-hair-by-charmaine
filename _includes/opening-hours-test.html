@@ -1,5 +1,6 @@
 <div class="info">
   <div class="wrap">
+
     <div class="stack">
 
       <span class="fs-title header">Opening Hours</span>
@@ -22,6 +23,13 @@
 
       </ul>
 
-    </div>
   </div>
 </div>
+
+<nav>
+  {% for item in site.data.test.items %}
+    <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>

@@ -33,3 +33,23 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Link, name: link, widget: string }
+  - name: "opening-times"
+    label: "Opening Times"
+    editor:
+      preview: false
+    files:
+      - label: "Change your opening times"
+        name: "Opening Hours"
+        file: "_data/opening-hours.yml"
+        fields:
+          - label: "Salon opening times"
+            name: "days"
+            widget: "list"
+            fields:
+              - { label: closed?, name: closed, widget: boolean }
+              - { label: opens, name: open, widget: string }
+              - { label: closes, name: close, widget: string }
+              - { label: additional message, name: message, widget: string }
+
+
+              
