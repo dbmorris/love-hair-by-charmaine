@@ -10,17 +10,24 @@ logo_url: https://lovehairbycharmaine.co.uk/img/love-hair-logo-3.png
 collections:
 - label: "Opening times"
   name: "opening-times"
+  editor:
+    preview: false
   files:
     - label: "Change your opening times"
-      name: "days"
+      name: "change-opening-times"
       file: "_data/opening-hours.yml"
       fields:
-        - { label: Is salon open?, name: closed, widget: boolean, required: true }
-        - { label: Salon opens, name: open, widget: string, required: false }
-        - { label: Salon closes, name: close, widget: string, required: false }
-        - { label: Additional info, name: message, widget: string, required: false }
+        – label: 'Days'
+          name: 'days'
+          fields:
+            - { label: Is the salon open?, name: closed, widget: boolean, required: true }
+            - { label: Salon opens, name: open, widget: string, required: false }
+            - { label: Salon closes, name: close, widget: string, required: false } 
+            - { label: Additional info, name: message, widget: string, required: false }
 - label: "price-list"
   name: "Price list"
+  editor:
+    preview: false
   files:
     - label: "Main services"
       name: "main-services"
@@ -33,7 +40,10 @@ collections:
       fields: 
         - { name: title }
     - label: "Balayage"
-      name: "services"
+      name: "balayage"
       file: "_data/balayage.json"
-      fields: 
-        - { name: title }
+      fields:
+        - label: "Treatments"
+          name: "services"
+          fields: 
+            - { name: title }
