@@ -19,7 +19,7 @@ collections:
       fields:
         - label: 'Opening times'
           name: 'days'
-          summary: 'days.name'
+          summary: '{{ days.name }}'
           widget: list
           fields:
             - {label: Is the salon closed?, name: closed, widget: boolean, required: true}
@@ -40,14 +40,20 @@ collections:
       name: "high-low-lighting"
       file: "_data/highlowlighting.json"
       fields: 
-        - {name: title}
+        - label: "High & Lowlighting Treatments"
+          name: "services"
+          widget: list
+          summary: "{{ services.title }}"
+          fields:
+            - {label: Price, name: price, widget: string, required: true}
     - label: "Balayage"
       name: "balayage"
       file: "_data/balayage.json"
-      widget: list
-      summary: " {{ services.title }}"
       fields:
         - label: "Treatments"
           name: "services"
+          widget: list
+          summary: "{{ services.title }}"
           fields: 
-            - {name: title}
+            - {label: Name of treatment, name: title, widget: string, required: true}
+            - {label: Price, name: price, widget: string, required: true}
