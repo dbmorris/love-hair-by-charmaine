@@ -53,8 +53,15 @@ collections:
           name: "services"
           widget: list
           summary: "{{fields.title}}"
-          fields:
-            - {label: Price, name: price, widget: string, required: true}
+          fields: 
+            - label: "Treatments"
+              name: "services"
+              widget: list
+              summary: "{{fields.title}}"
+              fields: 
+                - {label: Name of treatment, name: title, widget: string, required: true}
+                - {label: Price, name: price, widget: string, required: true}
+                - {label: Description, name: notes, widget: list, required: true }
     - label: "Balayage"
       name: "balayage"
       file: "_data/balayage.json"
