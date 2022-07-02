@@ -22,6 +22,7 @@ collections:
           summary: '{{fields.name}}'
           delete: false
           widget: list
+          allow_add: false
           fields:
             - {label: Is the salon closed?, name: closed, widget: boolean, required: true}
             - {label: Salon opens, name: open, widget: string, required: false}
@@ -36,7 +37,14 @@ collections:
       name: "main-services"
       file: "_data/main-services.json"
       fields: 
-        - {name: title}
+        - label: "Treatments"
+          name: "services"
+          widget: list
+          summary: "{{fields.title}}"
+          fields: 
+            - {label: Name of treatment, name: title, widget: string, required: true}
+            - {label: Price, name: price, widget: string, required: true}
+            - {label: Description, name: notes, widget: list, required: true }
     - label: "High & Low Lighting"
       name: "high-low-lighting"
       file: "_data/highlowlighting.json"
@@ -54,11 +62,9 @@ collections:
         - label: "Treatments"
           name: "services"
           widget: list
-          allow_add: false
-          max: 7
           summary: "{{fields.title}}"
           fields: 
             - {label: Name of treatment, name: title, widget: string, required: true}
             - {label: Price, name: price, widget: string, required: true}
-            - {label: Description, name: notes, widget: text, required: true}
+            - {label: Description, name: notes, widget: list, required: true }
             - {label: Package, name: package, widget: list, required: true}
