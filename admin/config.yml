@@ -17,15 +17,14 @@ collections:
       name: "change-opening-times"
       file: "_data/opening-hours.yml"
       fields:
-        - label: 'Days'
+        - label: 'Opening times'
           name: 'days'
+          widget: list
           fields:
             - {label: Is the salon open?, name: closed, widget: boolean, required: true}
             - {label: Salon opens, name: open, widget: string, required: false}
             - {label: Salon closes, name: close, widget: string, required: false} 
             - {label: Additional info, name: message, widget: string, required: false}
-            widget: list
-            name: name
 - label: "price-list"
   name: "Price list"
   editor:
