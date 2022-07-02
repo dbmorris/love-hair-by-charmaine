@@ -1,9 +1,11 @@
-[{
-  "title": "Cut & blow",
-  "price": "£45",
-  "notes": "This service includes a complimentary fringe trim in-between your 8 week appointment"
-  },{
-  "title": "Blow dry",
-  "price": "£30",
-  "notes": ["Straight, curly, tousled & beachy whatever style you desire.", "I’ve got you covered!"]
-}]
+{
+  "services": [{
+    "title": "Cut & blow",
+    "price": "£45",
+    "notes": "This service includes a complimentary fringe trim in-between your 8 week appointment"
+    }, {
+    "title": "Blow dry",
+    "price": "£30",
+    "notes": ["Straight, curly, tousled & beachy whatever style you desire.", "I’ve got you covered!"]
+  }]
+}
