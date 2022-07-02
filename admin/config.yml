@@ -16,10 +16,10 @@ collections:
     - label: "Change your opening times"
       name: "change-opening-times"
       file: "_data/opening-hours.yml"
-      summary: '{{ days.name }}'
       fields:
         - label: 'Opening times'
           name: 'days'
+          summary: 'days.name'
           widget: list
           fields:
             - {label: Is the salon closed?, name: closed, widget: boolean, required: true}

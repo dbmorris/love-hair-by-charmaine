@@ -1,17 +1,19 @@
-[{
-	"title": "Fullhead foils",
-	"price": "£99",
-	"notes": "Highlights or lowlights that cover over your full head"
-}, {
-	"title": "1/2 head foils",
-	"price": "£77",
-	"notes": "Highlighting service that covers your parting to the crown and down besides the ears"
-}, {
-	"title": "Herringbone parting foils",
-	"price": "£55",
-	"notes": ["Parting herringbone highlights concentrates on the top section of your hair where your parting is.", "This herringbone technique gives you a much softer look when highlights start to grow out."]
-}, {
-	"title": "Personalised colour",
-	"price": "£84",
-	"notes": ["This package is tailored to your individual needs.", "Whether it be a concern about grey regrowth or wanting a handful of highlights for brightness this package is the one for you."]
-}]
+{
+	"services": [{
+			"title": "Fullhead foils",
+			"price": "£99",
+			"notes": "Highlights or lowlights that cover over your full head"
+		}, {
+			"title": "1/2 head foils",
+			"price": "£77",
+			"notes": "Highlighting service that covers your parting to the crown and down besides the ears"
+		}, {
+			"title": "Herringbone parting foils",
+			"price": "£55",
+			"notes": ["Parting herringbone highlights concentrates on the top section of your hair where your parting is.", "This herringbone technique gives you a much softer look when highlights start to grow out."]
+		}, {
+			"title": "Personalised colour",
+			"price": "£84",
+			"notes": ["This package is tailored to your individual needs.", "Whether it be a concern about grey regrowth or wanting a handful of highlights for brightness this package is the one for you."]
+		}]
+}

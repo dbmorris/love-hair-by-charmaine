@@ -28,7 +28,7 @@
       <div class="price-list__container colour">
 
 
-        {% for item in site.data.balayage reversed offset:3 limit:2 %}
+        {% for item in site.data.balayage.services reversed offset:3 limit:2 %}
 
           {% include components/pricelist-item-basic.html %}
 
@@ -68,7 +68,7 @@
 
       <div class="price-list__container highlowlighting">
 
-      {% for item in site.data.highlowlighting %}
+      {% for item in site.data.highlowlighting.services %}
 
         {% include components/pricelist-item-basic.html %}
 
@@ -84,7 +84,7 @@
 
         <div class="price-list__container treatments">
 
-        {% for item in site.data.treatments %}
+        {% for item in site.data.treatments.services %}
 
           {% include components/pricelist-item-complex.html %}
 
