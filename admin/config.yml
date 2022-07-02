@@ -8,16 +8,6 @@ site_url: https://lovehairbycharmaine.co.uk
 logo_url: https://lovehairbycharmaine.co.uk/img/love-hair-logo-3.png
 
 collections:
-  - label: "Salon details"
-    name: "details"
-    description: Update opening times and various information about the salon
-    files: 
-    - label: "Opening times"
-      name: "opening_times"
-      file: "includes/opening-hours.html"
-      extensions: html
-      fields:
-        - {label: Title, name: title, widget: string }
   - name: "config"
     label: "Config"
     editor:
@@ -44,12 +34,13 @@ collections:
         fields:
           - label: "Salon opening times"
             name: "days"
+            delete: false
             widget: "list"
             fields:
-              - { label: closed?, name: closed, widget: boolean }
-              - { label: opens, name: open, widget: string }
-              - { label: closes, name: close, widget: string }
-              - { label: additional message, name: message, widget: string }
+              - { label: Salon closed this day?, name: closed, widget: boolean }
+              - { label: Salon opens, name: open, widget: string, required: false }
+              - { label: Salon closes, name: close, widget: string, required: false }
+              - { label: Other information, name: message, widget: string, required: false }
 
 
               
