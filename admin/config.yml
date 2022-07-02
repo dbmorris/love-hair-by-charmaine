@@ -20,14 +20,15 @@ collections:
         - label: 'Opening times'
           name: 'days'
           summary: '{{fields.name}}'
+          delete: false
           widget: list
           fields:
             - {label: Is the salon closed?, name: closed, widget: boolean, required: true}
             - {label: Salon opens, name: open, widget: string, required: false}
             - {label: Salon closes, name: close, widget: string, required: false} 
             - {label: Additional info, name: message, widget: string, required: false}
-- label: "price-list"
-  name: "Price list"
+- label: "Price list"
+  name: "price-list"
   editor:
     preview: false
   files:
@@ -53,7 +54,11 @@ collections:
         - label: "Treatments"
           name: "services"
           widget: list
+          allow_add: false
+          max: 7
           summary: "{{fields.title}}"
           fields: 
             - {label: Name of treatment, name: title, widget: string, required: true}
             - {label: Price, name: price, widget: string, required: true}
+            - {label: Description, name: notes, widget: text, required: true}
+            - {label: Package, name: package, widget: list, required: true}
