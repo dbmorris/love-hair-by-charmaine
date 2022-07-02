@@ -17,7 +17,7 @@ collections:
       name: "change-opening-times"
       file: "_data/opening-hours.yml"
       fields:
-        – label: 'Days'
+        - label: 'Days'
           name: 'days'
           fields:
             - { label: Is the salon open?, name: closed, widget: boolean, required: true }
