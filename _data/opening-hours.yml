@@ -6,8 +6,8 @@ days:
     message: null
   - name: Tuesday
     closed: false
-    open: '12'
-    close: '8'
+    open: Noon
+    close: "8"
     message: null
   - name: Wednesday
     closed: true
@@ -16,21 +16,21 @@ days:
     message: null
   - name: Thursday
     closed: false
-    open: '11'
-    close: '8'
+    open: "11"
+    close: "8"
     message: null
   - name: Friday
     closed: false
-    open: '9'
-    close: '5'
+    open: "9"
+    close: "5"
     message: null
   - name: Saturday
     closed: false
-    open: '9'
-    close: '3'
+    open: "9"
+    close: "3"
     message: closed one Saturday every month
   - name: Sunday
     closed: false
-    open: '10'
-    close: '2'
+    open: "10"
+    close: "2"
     message: open one Sunday every month
