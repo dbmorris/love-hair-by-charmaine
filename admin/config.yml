@@ -12,13 +12,13 @@ collections:
   name: "opening-times"
   files:
     - label: "Change your opening times"
-      name: "change-opening-times"
+      name: "days"
       file: "_data/opening-hours.yml"
       fields:
-        - {label: Is salon open?, name: closed, widget: boolean, required: true }
-        - {label: Salon opens, name: open, widget: string, required: false }
-        - {label: Salon closes, name: close, widget: string, required: false }
-        - {label: Additional info, name: message, widget: string, required: false }
+        - { label: Is salon open?, name: closed, widget: boolean, required: true }
+        - { label: Salon opens, name: open, widget: string, required: false }
+        - { label: Salon closes, name: close, widget: string, required: false }
+        - { label: Additional info, name: message, widget: string, required: false }
 - label: "price-list"
   name: "Price list"
   files:
@@ -26,14 +26,14 @@ collections:
       name: "main-services"
       file: "_data/main-services.json"
       fields: 
-        - {name: title}
+        - { name: title }
     - label: "High & Low Lighting"
       name: "high-low-lighting"
       file: "_data/highlowlighting.json"
       fields: 
-        - {name: title}
+        - { name: title }
     - label: "Balayage"
-      name: "balayage"
+      name: "services"
       file: "_data/balayage.json"
       fields: 
-        - {name: title}
+        - { name: title }
