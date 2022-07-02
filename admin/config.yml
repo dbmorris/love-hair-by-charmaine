@@ -20,10 +20,12 @@ collections:
         - label: 'Days'
           name: 'days'
           fields:
-            - { label: Is the salon open?, name: closed, widget: boolean, required: true }
-            - { label: Salon opens, name: open, widget: string, required: false }
-            - { label: Salon closes, name: close, widget: string, required: false } 
-            - { label: Additional info, name: message, widget: string, required: false }
+            - {label: Is the salon open?, name: closed, widget: boolean, required: true}
+            - {label: Salon opens, name: open, widget: string, required: false}
+            - {label: Salon closes, name: close, widget: string, required: false} 
+            - {label: Additional info, name: message, widget: string, required: false}
+            widget: list
+            name: name
 - label: "price-list"
   name: "Price list"
   editor:
@@ -33,12 +35,12 @@ collections:
       name: "main-services"
       file: "_data/main-services.json"
       fields: 
-        - { name: title }
+        - {name: title}
     - label: "High & Low Lighting"
       name: "high-low-lighting"
       file: "_data/highlowlighting.json"
       fields: 
-        - { name: title }
+        - {name: title}
     - label: "Balayage"
       name: "balayage"
       file: "_data/balayage.json"
@@ -46,4 +48,4 @@ collections:
         - label: "Treatments"
           name: "services"
           fields: 
-            - { name: title }
+            - {name: title}
