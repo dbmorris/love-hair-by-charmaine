@@ -1,36 +1,36 @@
 days:
   - name: Monday
-    closed: True
+    closed: true
     open: null
     close: null
     message: null
   - name: Tuesday
-    closed: False
-    open: 12pm
+    closed: false
+    open: Noon
     close: 8pm
     message: null
   - name: Wednesday
-    closed: True
+    closed: true
     open: null
     close: null
     message: null
   - name: Thursday
-    closed: False
+    closed: false
     open: 11am
     close: 8pm
     message: null
   - name: Friday
-    closed: False
+    closed: false
     open: 9am
     close: 5pm
     message: null
   - name: Saturday
-    closed: False
+    closed: false
     open: 9am
     close: 3pm
     message: closed one Saturday every month
   - name: Sunday
-    closed: False
+    closed: false
     open: 10am
     close: 2pm
     message: open one Sunday every month
