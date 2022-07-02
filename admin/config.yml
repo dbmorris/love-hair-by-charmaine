@@ -16,12 +16,13 @@ collections:
     - label: "Change your opening times"
       name: "change-opening-times"
       file: "_data/opening-hours.yml"
+      summary: '{{ days.name }}'
       fields:
         - label: 'Opening times'
           name: 'days'
           widget: list
           fields:
-            - {label: Is the salon open?, name: closed, widget: boolean, required: true}
+            - {label: Is the salon closed?, name: closed, widget: boolean, required: true}
             - {label: Salon opens, name: open, widget: string, required: false}
             - {label: Salon closes, name: close, widget: string, required: false} 
             - {label: Additional info, name: message, widget: string, required: false}
@@ -43,6 +44,8 @@ collections:
     - label: "Balayage"
       name: "balayage"
       file: "_data/balayage.json"
+      widget: list
+      summary: " {{ services.title }}"
       fields:
         - label: "Treatments"
           name: "services"
