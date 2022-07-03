@@ -6,7 +6,7 @@ days:
     message: null
   - name: Tuesday
     closed: false
-    open: "12"
+    open: Noon
     close: "8"
     message: null
   - name: Wednesday
