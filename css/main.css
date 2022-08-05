@@ -17,7 +17,7 @@ img {
   width: 100%
 }
 
-a {color:#4A4A4A; text-decoration: none;}
+a {color:#4A4A4A; text-decoration: none; display: inline-block}
 a:visited {color:#4A4A4A;}
 a:hover {color:#4A4A4A; }
 a:active {color:black;}
@@ -30,56 +30,46 @@ a:active {color:black;}
 }
 
 .homepage-intro {
-  background-color: #F4CED3;
+  background-color: #F6E2E0;
+  padding: 1rem;
+}
+
+.intro__ctas > * {
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.intro__ctas > *:last-child {
+  margin: 0;
+}
+
+.intro__image {
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.intro__logo_image {
+  position: relative;
+  height: 100%;
+}
+
+.intro__image img {
+  width: 100%;
+  margin: auto 0;
+}
+
+.intro__text {
   padding: 2rem 0;
-}
-
-.intro {
- height: auto;
- padding: 2rem 0 2rem 0;
- background: #FFC2CA;
- background-repeat: no-repeat;
- background-position: bottom;
- background-size: contain;
-}
-
-.intro-sidebar {
-  overflow: visible;
   text-align: center;
 }
 
-.intro-sidebar > * {
-  display: flex;
-  flex-wrap: wrap;
-  margin: calc(2rem / 2 * -1);
-}
-
-.intro-sidebar > * > * {
-  margin: calc(2rem / 2);
-  flex-basis: 14rem;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.intro-sidebar > * > :last-child {
-  flex-basis: 0;
-  flex-grow: 999;
-  min-width: calc(66.6667% - 2rem);
-}
-
-.intro-sidebar > * > :last-child img {
-  border-radius: 4px;
-}
-
 .intro__logo {
-  background: url('../img/love-hair-logo-3.png') no-repeat;
-  background-size: cover;
   display: block;
   height: 200px;
   width: 200px;
-  margin: 0 auto;
+  margin: 0 auto -60px auto;
+  position: relative;
 }
 
 .intro__cta {
@@ -341,23 +331,28 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 320px) 
 /* Media Queries */
 @media only screen and (min-width: 768px) {
 
-  .intro-sidebar {
-    text-align: left;
-  }
-
-  .intro .intro__logo {
-    margin: 0 auto;
-  }
-
   .intro__logo {
     background-size: cover;
     height: 180px;
     width: 180px;
     margin: 0 auto 0 0 ;
   }
+  
+  img.intro__image__img {
+    max-height: 80vh;
+    object-fit: cover;
+  }
 
-  .intro__cta {
-    display: inline-block;
+  .intro__image .intro__logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  .intro__cta__appointment {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
   }
 
   .brand .column-width-cap.rounded-column {

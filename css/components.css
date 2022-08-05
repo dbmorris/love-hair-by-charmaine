@@ -1,20 +1,22 @@
-
-button {
-}
-
 button:hover {
   cursor: pointer;
 }
 
 .primary-button {
-  background-color: rgba(255, 255, 255, 0.1);
-  border: #E96122 solid 2px;
+  background-color: #FFFFFF;
+  border: #E96122 solid 1px;
   color: #E96122;
-  border-radius: 4px;
+  border-radius: 2rem;
   display: block;
   padding: 8px 24px 14px 24px;
   margin: 0;
   display: inline-block;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+}
+
+a.primary-button:visited {
+  color: #E96122;
 }
 
 .primary-button:hover {
@@ -24,18 +26,24 @@ button:hover {
 
 .secondary-button {
   background-color: unset;
-  background: url('/img/button-arrow-right.png');
   background-repeat: no-repeat;
   background-position: right top;
-  border: none;
-  font-size: 15px;
-  margin-top: 28px;
-  padding-right: 24px;
-  text-decoration: underline;
+  border: 1px solid #E96122;
+  color: #E96122;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 6px 20px 12px 20px;
 }
 
-a .secondary-button {
-  line-height: 20px;
+a.secondary-button:visited {
+  color: #E96122;
+}
+
+a.secondary-button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .price-list__title {
