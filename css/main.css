@@ -79,6 +79,15 @@ a:active {color:black;}
   line-height: 2em;
 }
 
+.prices__logo {
+  padding-top: 1rem;
+  background-color: #F6E2E0;
+}
+
+.prices__logo .intro__logo {
+  margin: 0 auto;
+}
+
 .messagebanner__wrap {
   padding: 28px 32px 16px 32px;
   border-radius: 4px;
@@ -115,7 +124,7 @@ a:active {color:black;}
 }
 
 .prices {
-  background: #FFC2CA;
+  background: #F6E2E0;
 }
 
 .brand__image {

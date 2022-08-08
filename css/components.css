@@ -48,7 +48,7 @@ a.secondary-button:hover {
 
 .price-list__title {
   margin-bottom: 4rem;
-  text-align: center;
+  text-align: left;
 }
 
 .price-list__title:first-child {
@@ -61,7 +61,6 @@ a.secondary-button:hover {
 
 .price-list__title p {
   max-width: 640px;
-  margin-left: auto;
   margin-right: auto;
 }
 
@@ -72,7 +71,7 @@ a.secondary-button:hover {
 
 .price-list__header {
   width: 100%;
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
 }
 
@@ -95,19 +94,23 @@ a.secondary-button:hover {
   font-size: 1.25em;
   color: rgba(56, 56, 56, 1);
   margin: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .item__inner {
-  background: #F9D1D7;
+  background: #FFFFFF;
   padding: 1.5rem;
   height: 100%;
-  border: solid 2px pink;
-  border-radius: 8px;
+  border: solid 1px pink;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 .item__price {
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 .item__package {
@@ -115,12 +118,23 @@ a.secondary-button:hover {
   font-family: monospace;
 }
 
+.item__left {
+  flex-grow: 2;
+}
+
+.item__right {
+  align-self: flex-start;
+}
+
 
 @media only screen and (min-width: 768px) {
 
   .price_list__item {
-    max-width: calc(100%/3);
     padding: 0 12px 24px 12px;
+  }
+
+  .price-list__title p {
+    margin-left: 0.75rem;
   }
 
   .item__inner {
